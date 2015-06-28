@@ -1,0 +1,40 @@
+{
+  "name": "jbussdieker-django",
+  "version": "0.0.9",
+  "author": "Joshua Bussdieker",
+  "summary": "Puppet Django management module",
+  "license": "MIT",
+  "source": "http://github.com/jbussdieker/puppet-django",
+  "project_page": "http://github.com/jbussdieker/puppet-django",
+  "issues_url": "https://github.com/jbussdieker/puppet-django/issues",
+  "description": "This module can be used for basic Django Management",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "7", "6" ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [ "7", "6" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "12.04" ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/vcsrepo", "version": ">= 1.0.0" }
+  ],
+  "tags": [
+    "django",
+    "graphite",
+    "python",
+    "carbon"
+  ]
+}

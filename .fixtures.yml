@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    vcsrepo: git://github.com/puppetlabs/puppetlabs-vcsrepo.git
+    stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
+  symlinks:
+    django: "#{source_dir}"
